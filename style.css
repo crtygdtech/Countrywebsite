@@ -1,8 +1,9 @@
+
 .container{
     display:flex;
 }
 #banner{
-    font-family:Tahoma;
+    font-family:Lucida;
 }
 #main{
     flex:2;
@@ -42,7 +43,7 @@ nav a:hover{
     box-shadow:3px 4px black;
     border-radius:10px;
 }
-.images{
+.image img{
     flex-direction:column;
 }
 p{
@@ -50,4 +51,11 @@ p{
 }
 #side{
     text-align:right;
+}
+#map img{
+    height:230px;
+    width:250px;
+}
+#info{
+    max-width:800px;
 }
