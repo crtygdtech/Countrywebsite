@@ -8,9 +8,10 @@ html{
     background-color:red;
     text-decoration:underline;
     font-family:Lucida;
-    padding:50px;
+    padding:30px;
     border:double yellow 10px;
-    margin:10px;
+    margin:15px;
+    font-size:30px;
 }
 #main{
     flex:2;
@@ -55,7 +56,7 @@ nav a:hover{
 }
 .image img{
     flex-direction:column;
-    border:solid darkred 3px;
+    border:dashed lightcoral 5px;
     padding:0px;
 }
 .image img:hover{
@@ -66,6 +67,15 @@ p{
 }
 #side{
     text-align:right;
+}
+#visual{
+    margin:6px;
+    padding:5px;
+    border:1px solid yellow;
+    box-shadow:3px 4px darkblue;
+    border-radius:20px;
+    background-color:lightcyan;
+}
 }
 #map img{
     height:280px;
