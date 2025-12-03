@@ -47,15 +47,14 @@ nav a:hover{
     color:red;
 }
 .card{
-    margin:8px;
-    padding:5px;
+    margin:20px;
+    padding:10px;
     border:1px solid;
     box-shadow:3px 4px black;
     border-radius:10px;
     background-color:lightgoldenrodyellow;
 }
 .image img{
-    flex-direction:column;
     border:dashed lightcoral 5px;
     padding:0px;
 }
@@ -66,8 +65,8 @@ p{
     font-size:25px;
 }
 #visual{
-    margin:6px;
-    padding:5px;
+    margin:20px;
+    padding:10px;
     border:1px solid yellow;
     box-shadow:3px 4px darkblue;
     border-radius:20px;
@@ -85,4 +84,21 @@ p{
     background-color:darkred;
     border:solid black 1px;
     padding:20px;
+}
+#heading2{
+    background-color:yellow;
+    border:solid black 2px;
+    padding:5px;
+}
+#side{
+    flex-direction:column;
+    align-items:right;
+    max-width:270px;
+    padding:10px;
+}
+#shang img{
+
+}
+#zhou img{
+
 }
