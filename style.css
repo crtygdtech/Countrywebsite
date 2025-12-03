@@ -65,9 +65,6 @@ nav a:hover{
 p{
     font-size:25px;
 }
-#side{
-    text-align:right;
-}
 #visual{
     margin:6px;
     padding:5px;
@@ -75,7 +72,6 @@ p{
     box-shadow:3px 4px darkblue;
     border-radius:20px;
     background-color:lightcyan;
-}
 }
 #map img{
     height:280px;
