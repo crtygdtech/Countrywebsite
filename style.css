@@ -96,9 +96,20 @@ p{
     max-width:270px;
     padding:10px;
 }
+#qing img{
+    height:220px;
+    width:250px;
+}
 #shang img{
-
+    height: 400px;
+    width:220px;
 }
 #zhou img{
-
+    height: 300px;
+    width:200px;
+}
+#history img{
+    margin:20px;
+    padding:10px;
+    border:5px dotted lightgoldenrodyellow;
 }
