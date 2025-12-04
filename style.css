@@ -4,6 +4,9 @@ html{
 .container{
     display:flex;
 }
+.column{
+    flex-direction: column;
+}
 #banner{
     background-color:red;
     text-decoration:underline;
@@ -11,7 +14,7 @@ html{
     padding:30px;
     border:double yellow 10px;
     margin:15px;
-    font-size:30px;
+    font-size:35px;
 }
 #main{
     flex:2;
@@ -26,6 +29,7 @@ div img{
 a{
     text-decoration:none;
     color:yellow;
+    text-align:center;
 }
 nav{
     flex:1;
@@ -62,7 +66,7 @@ nav a:hover{
     
 }
 p{
-    font-size:25px;
+    font-size:30px;
 }
 #visual{
     margin:20px;
