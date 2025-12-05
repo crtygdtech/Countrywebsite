@@ -112,12 +112,29 @@ p{
     height: 300px;
     width:200px;
 }
-#history img{
-    margin:20px;
-    padding:10px;
-    border:5px dotted lightgoldenrodyellow;
+.history img{
+    border:solid lightgoldenrodyellow 8px;
+    padding:0px;
 }
 #content img{
-    height:400px;
-    width:530px;
+    height:380px;
+    width:600px;
+    padding:20px;
+}
+#context{
+    text-align:center;
+    border-radius:25px;
+    border:solid rgb(119, 16, 12);
+    background-color:rgb(255, 255, 106);
+    padding:5px;
+    margin:5px;
+}
+#intro_cult{
+    max-width:950px;
+    text-align:center;
+    font-size:180px;
+    padding:10px;
+}
+.culture img{
+    
 }
