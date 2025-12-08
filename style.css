@@ -76,9 +76,15 @@ p{
     border-radius:20px;
     background-color:lightcyan;
 }
+#visual img{
+    height:230px;
+    width:230px;
+}
 #map img{
     height:280px;
     width:300px;
+    border:solid black 1px;
+    padding:0px;
 }
 #info{
     max-width:800px;
@@ -92,12 +98,13 @@ p{
 #heading2{
     background-color:yellow;
     border:solid black 2px;
-    padding:5px;
+     padding:5px;
+     margin:1px;
 }
 #side{
     flex-direction:column;
-    align-items:right;
-    max-width:270px;
+    align-items:left;
+    max-width:321px;
     padding:10px;
 }
 #qing img{
@@ -136,5 +143,56 @@ p{
     padding:10px;
 }
 .culture img{
-    
+    border:solid darkred 7px;
+    padding:4px;
+    margin:4px;
+}
+#pic1 img{
+    height:180px;
+    width:345px;
+}
+#pic2 img{
+    height:230px;
+    width:300px;
+}
+#pic3 img{
+    height:300px;
+    width:350px;
+}
+#pic4 img{
+    height:165px;
+    width:230px;
+}
+#conclusion{
+    border:solid darkgoldenrod;
+    padding:2px;
+    margin:7px;
+    border-radius:10px;
+}
+#introlands p{
+    text-align:center;
+    border-radius:15px;
+    border:dashed lightslategray 4px;
+    background-color:rgb(231, 248, 183);
+    padding:10px;
+    margin:18px;
+    font-size:30px;
+    color:darkred;
+}
+#landscpimg img{
+    border:dotted lightskyblue 7px;
+    padding:0px;
+    margin:20px;
+}
+#img1 img{
+    height:250;
+    width:400;
+}
+#img2 img{
+    height:280;
+    width:350;
+}
+#img3 img{
+    height:235;
+    width:350;
 }
