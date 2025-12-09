@@ -57,6 +57,36 @@ nav a:hover{
     box-shadow:3px 4px black;
     border-radius:10px;
     background-color:lightgoldenrodyellow;
+    height:330px;
+    width:220px;
+}
+.card3{
+    margin:20px;
+    padding:10px;
+    border:1px solid;
+    box-shadow:3px 4px black;
+    border-radius:10px;
+    background-color:lightgoldenrodyellow;
+    text-align:center;
+    height:380px;
+    width:270px;
+}
+.card3 img{
+    height:220px;
+    text-align:center;
+}
+.card1{
+    margin:20px;
+    padding:10px;
+    border:1px solid;
+    box-shadow:3px 4px black;
+    border-radius:10px;
+    background-color:lightgoldenrodyellow;
+    width:220px;
+}
+.card1 img{
+    height:280px;
+    text-align:center;
 }
 .image img{
     border:dashed lightcoral 5px;
@@ -75,10 +105,12 @@ p{
     box-shadow:3px 4px darkblue;
     border-radius:20px;
     background-color:lightcyan;
+    width:310px;
 }
 #visual img{
     height:230px;
-    width:230px;
+    width:280px;
+    text-align:center;
 }
 #map img{
     height:280px;
@@ -96,6 +128,7 @@ p{
     padding:20px;
 }
 #heading2{
+    color:black;
     background-color:yellow;
     border:solid black 2px;
      padding:5px;
@@ -164,10 +197,11 @@ p{
     width:230px;
 }
 #conclusion{
-    border:solid darkgoldenrod;
+    border:solid darkgoldenrod 5px;
     padding:2px;
     margin:7px;
     border-radius:10px;
+    background-color:lightgoldenrodyellow;
 }
 #introlands p{
     text-align:center;
@@ -216,9 +250,35 @@ p{
 #video{
     height:280px; 
     width:280px; 
-    margin:50px;
+    margin:30px;
+    align-items:center;
+    justify-content:center;
 }
 #caption p{
     font-size:28px; 
     margin:280px;
+    text-align:center;
+    border:solid lightgoldenrodyellow 1px;
+    border-radius:10px;
+    background-color:darkgoldenrod;
+    color:lightgoldenrodyellow;
+    padding:10px;
+    width:680px;
+    font-size:30px;
+}
+.gallery{
+    margin:20px;
+    padding:10px;
+    border:1px solid;
+    box-shadow:3px 4px black;
+    border-radius:10px;
+    background-color:lightgoldenrodyellow;
+    height:280px;
+    width:220px;
+}
+.gallery h3{
+    text-align:center;
+}
+.gallery img{
+    width:195px;
 }
