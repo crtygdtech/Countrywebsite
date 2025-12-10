@@ -92,8 +92,12 @@ nav a:hover{
     border:dashed lightcoral 5px;
     padding:0px;
 }
+.history img{
+    filter:grayscale(100%);
+    transition: filter 1s;
+}
 .history img:hover{
-    
+    filter:grayscale(0%);
 }
 p{
     font-size:30px;
@@ -178,7 +182,7 @@ p{
 .culture img{
     border:solid darkred 7px;
     padding:4px;
-    margin:10px;
+    margin:6px;
 }
 #pic1 img{
     height:180px;
@@ -273,12 +277,28 @@ p{
     box-shadow:3px 4px black;
     border-radius:10px;
     background-color:lightgoldenrodyellow;
-    height:280px;
-    width:220px;
+    height:300px;
+    width:280px;
 }
 .gallery h3{
     text-align:center;
+    font-size:23px;
 }
 .gallery img{
-    width:195px;
+    width:250px;
+    padding:0px;
+}
+.landscapes img{
+    filter:sepia(100%);
+    transition:filter 2s;
+}
+.landscapes img:hover{
+    filter:sepia(0%);
+}
+#landscpimg img{
+    filter:brightness(20%);
+    transition: filter 1s;
+}
+#landscpimg img:hover{
+    filter:brightness(100%);
 }
